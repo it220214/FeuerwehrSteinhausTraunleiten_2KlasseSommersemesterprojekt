@@ -1,0 +1,83 @@
+@font-face {
+    font-family: font;
+    src: url(../louis_george_cafe/Louis\ George\ Cafe.ttf);
+}
+
+body{
+    font-family: font;
+    text-align: center;
+}
+.navbar{
+    margin: 0;
+    padding: 0;
+}
+.navbar-toggler{
+    position: absolute;
+    top: 3vw;
+    left: 95%;
+}
+
+#background{
+    position: relative;
+    opacity: 0.2;
+    z-index: 1;
+}
+#h2News{
+    background-color: #fd0200;
+}
+#FFSteinhaus{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    z-index: 3;
+}
+#aktivstand{
+    position: absolute;
+    top: 2%;
+    z-index: 2;
+}
+#jugend{
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    z-index: 2;
+}
+#allgemeinFeuerwehr{
+    position: absolute;
+    top: 2%;
+    left: 65%;
+    z-index: 2;
+}
+#intern{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    z-index: 2;
+
+}
+.containerNews{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.newsItem{
+    display: flex;
+    flex-direction: column;
+    margin:2%;
+}
+.newsItemText{
+    background-color: rgba(234, 174, 174, 0.262);
+}
+.newsItemBild{
+    margin:2%;
+    height: 75%;
+}
+#kardfahren{
+    width: 170%;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}

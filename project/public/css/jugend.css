@@ -1,0 +1,84 @@
+@font-face {
+    font-family: font;
+    src: url(../louis_george_cafe/Louis\ George\ Cafe.ttf);
+}
+
+body{
+    font-family: font;
+}
+.navbar{
+    position: fixed;
+}
+#ueberschrift{
+    color: #C9932B;
+}
+
+#logo{
+    width: 40%;
+    position: relative;
+    left: 20%;
+}
+#navigation{
+    width: 80%;
+    position: relative;
+}
+#nav{
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+}
+/*CONTENT*/
+#jugend{
+    display: flex;
+    flex-direction: row;
+}
+#jugendIMG{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6%;
+}
+.imgJugendgruppe{
+    position: relative;
+    margin-left:2%;
+}
+#bewwerbIMG{
+    margin-bottom: 2%;
+}
+#bewerb23IMG{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#Jugendgruppe{
+    margin-top: 8%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+#midglieder{
+    width: 85%;
+    margin-left: 2%;
+    margin-right:2%;
+}
+#mitgliederFLex{
+    display: flex;
+    flex-direction: row;
+}
+/*FOOTER*/
+#footer{
+    background-color: #ca952b96;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.classFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+h3{
+    text-decoration: underline;
+}
+
+

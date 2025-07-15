@@ -1,0 +1,153 @@
+@font-face {
+    font-family: font;
+    src: url(../louis_george_cafe/Louis\ George\ Cafe.ttf);
+}
+
+body{
+    font-family: font;
+}
+/*NAV*/
+.navbar{
+    position: fixed;
+}
+#ueberschrift{
+    color: #fd0200;
+
+}
+#logo{
+    width: 40%;
+    position: relative;
+    left: 20%;
+}
+#navigation{
+    width: 80%;
+    position: relative;
+}
+#nav{
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+}
+
+/*INTERNE NAV*/
+#internav{
+    font-size: 2vw;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    background-color: #f3f3f3;
+}
+
+#internav {
+    float: left;
+    border-top: 1px solid #fd0200;
+    border-bottom: 1px solid #fd0200;
+    display: flex;
+    flex-direction: row;
+  }
+  
+#internav a {
+    text-decoration: none;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+#internav a:hover:not(.active) {
+    background-color: #ddd;
+  }
+
+/*CONTENT*/
+.wallpaper{
+    margin-left: 2%;
+}
+#branddreieck{
+    position: relative;
+    left: 2%;
+}
+#stuetzpunktdings{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.takEh{
+width: 50%;
+margin: 2%;
+}
+#aufgabenbereicheDerFeuerwehr{
+ margin-top: 13%;   
+}
+h2{
+    font-weight: bold;
+}
+h3{
+    text-decoration: underline;
+}
+.container{
+margin-top: 8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#textAllgemein{
+    text-align: center;
+    margin: 3%;
+}
+#wichtigeAufgaben{
+margin-right: 2%;
+margin-top: 2%;
+}
+#vorbeugenderBrandschutz{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#vorbeugenderBrandschutzText{
+    margin-left: 5%;
+    margin-top: 8%;
+}
+#loeschmittel{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 2%;
+}
+#loeschmittelText{
+    margin-top: 4%;
+}
+#loeschenWie{
+    margin-top: 10%;
+}
+#branddreieck img{
+    margin-left: 8%;
+}
+#nachrichtenuebermittlung{
+    margin-left: 2%;
+    margin-bottom: 5%;
+}
+#conEMeldenSidefacts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+/*FOOTER*/
+#footer{
+    background-color: #fd000095;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.classFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}

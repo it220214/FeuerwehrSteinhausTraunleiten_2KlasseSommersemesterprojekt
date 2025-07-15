@@ -1,0 +1,114 @@
+@font-face {
+    font-family: font;
+    src: url(../louis_george_cafe/Louis\ George\ Cafe.ttf);
+}
+
+body{
+    font-family: font;
+    text-align: center;
+}
+.navbar{
+    position: fixed;
+}
+#ueberschrift{
+    color: #002c72;
+}
+
+#logo{
+    width: 40%;
+    position: relative;
+    left: 20%;
+}
+#navigation{
+    width: 80%;
+    position: relative;
+}
+#nav{
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+}
+/*CONTENT*/
+
+/*FORM*/
+form{
+    text-align: center;
+    position: absolute;
+    top: 14vw;
+    left: 33vw;
+    width: 35%;
+    height: 35%;
+    padding: 2% 5%;
+    margin: 0 auto;
+    border: 0.2em solid #002c72;
+    box-shadow: 3px 6px 8px #002c7288;
+}
+#name_form, #password_form{
+    margin-top:4%;
+    color: black;
+    text-align: center;
+}
+form select{
+    display: inline-block;
+    width: 50%;
+    font-size: 1.0rem;
+    margin-bottom: 1em;
+    padding: 0.3em;
+    border: 1px solid #aaa;
+    border-radius: 0.2em;
+}
+
+form select:focus{
+    outline: none;
+    border-color: #002c72;
+}
+/*button*/
+form input[type=submit]{
+    display: block;
+    font-size:0.9rem;
+    padding: 0.8em;
+    margin-top: 1.5em;
+    color: white;
+    background-color: #002c72;
+    border-radius: 0.4em;
+    border: none;
+    cursor:pointer;
+    position: relative;
+    left: 33%;
+}
+form input[type=submit]:hover{
+    background-color:#002c7288;
+    color: white;
+}
+input[type=checkbox]{
+    accent-color: #002c72;
+}
+input[type=radio]{
+    accent-color: #002c72;
+}
+option:hover {
+    background-color: #002c72;
+}
+
+/*FOOTER*/
+#footer{
+    position: relative;
+    top: 76vh;
+    background-color: #002c7288;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.classFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+h3{
+    text-decoration: underline;
+}
+
+
+

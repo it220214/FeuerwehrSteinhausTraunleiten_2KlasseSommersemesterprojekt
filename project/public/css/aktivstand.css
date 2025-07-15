@@ -1,0 +1,77 @@
+@font-face {
+    font-family: font;
+    src: url(../louis_george_cafe/Louis\ George\ Cafe.ttf);
+}
+
+body{
+    font-family: font;
+}
+.navbar{
+    position: fixed;
+}
+#ueberschrift{
+    color: #04602C;
+
+}
+#logo{
+    width: 40%;
+    position: relative;
+    left: 20%;
+}
+#navigation{
+    width: 80%;
+    position: relative;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+}
+#imgKameraden{
+    position: absolute;
+    opacity: 1;
+    top: 14%;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 15vw;
+}
+#komandos{
+    position: absolute;
+    left: 5%;
+    top: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#komandoSteinhaus{
+    margin: 5%;
+}
+#komandoTraunleiten{
+    margin: 5%;
+}
+#pfeilNachUnten{
+    text-align: center;
+    width: 2vw;
+    font-size: 100%;
+    position: absolute;
+    top: 50vw;
+    right: 4vw;
+}
+/*FOOTER*/
+#footer{
+    position: relative;
+    top: 190vh;
+    background-color: #01612b85;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+.classFooter{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+h3{
+    text-decoration: underline;
+}

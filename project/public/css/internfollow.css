@@ -1,0 +1,43 @@
+@font-face {
+    font-family: font;
+    src: url(../louis_george_cafe/Louis\ George\ Cafe.ttf);
+}
+
+body{
+    font-family: font;
+    text-align: center;
+    margin: 40px 10px;
+    padding: 0;
+    font-size: 14px;
+}
+.navbar{
+    position: fixed;
+}
+#ueberschrift{
+    color: #002c72;
+}
+
+#logo{
+    width: 40%;
+    position: relative;
+    left: 20%;
+}
+#navigation{
+    width: 80%;
+    position: relative;
+}
+#nav{
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+}
+
+
+#calendar {
+    position: absolute;
+    top: 13vh;
+    left: 12vw;
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
